@@ -1,4 +1,4 @@
-# RP2040 Advanced Breakout Board - USB Passthrough Edition v5.6
+# RP2040 Advanced Breakout Board - USB Passthrough Edition v5.6-bss
 ![rp2040_advanced_breakout_board_pt](Assets/RP2040%20Advanced%20Breakout%20Board%20-%20Passthrough.jpg)
 ---
 
@@ -13,7 +13,13 @@ Copyright 2024 [TheTrain](https://github.com/TheTrainGoes)
 [Licensed under CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Changes from the original design:
-  - list any changes you make here
+  - Removed the 4-pin harness to make room for...
+  - Added another screw terminal for GPIO25 + GND
+      - Removed the GPIO25 in the middle of the board
+      - Reordered L3/R3/A2 pins on account of rerouting them
+  - Removed the RGB LED components
+  - Routed GPIO4 to the 3-pin screw terminal, making it 2/3/4 (Dupont is still 2/G/G/3)
+  - Replaced USB-B port with an RJ45 port for my ridiculous cabling
 
 ## Summary
 
